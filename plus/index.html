@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent > * + * {
+            color: red;
+        }
+
+        .parent2 > div + p {
+            color: red;
+        }
+</style>
+</head>
+<body>
+    <h1>+ の動作テスト</h1>
+
+    <h2>* + *</h2>
+    <div class="parent">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+    <h2>div + p</h2>
+    <div class="parent2">
+        <div>1 div</div>
+        <p>2 p</p>
+        <div>3 div</div>
+        <span>4 span</span>
+        <p>5 p</p>
+    </div>
+    <p>* note: 隣接していない場合は対象外(5 p が色変わりしていない)</p>
+
+</body>
+</html>
