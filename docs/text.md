@@ -3,9 +3,8 @@
 - [text\-align](https://developer.mozilla.org/ja/docs/Web/CSS/text-align): テキストの横方向の位置指定
   - `justify`: 両端揃え
 
-## 改行
+## はみ出し
 
-- 強制的に折り返す: `word-wrap: break-word;`
 - はみ出し分の調整
   - [overflow－CSSリファレンス](http://www.htmq.com/css/overflow.shtml)
   - はみ出す(default): `overflow: visible;`
@@ -15,6 +14,8 @@
   - **display: none:** `overflow: no-display;`
   - **visiblity: hidden;** : `overflow: visible;`
 - CJK (中国語、台湾語、日本語、韓国語)について：後述
+
+## 改行
 
 ### 改行を防止する場合
 
