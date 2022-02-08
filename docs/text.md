@@ -15,6 +15,7 @@
   - **visiblity: hidden;** : `overflow: visible;`
 - はみ出し分のカスタマイズ
   - [text\-overflow \- CSS: カスケーディングスタイルシート \| MDN](https://developer.mozilla.org/ja/docs/Web/CSS/text-overflow)
+  - 事前に : `overflow: hidden; white-space: nowrap;` などであふれるように設定しておく必要あり
   - ...にする: `text-overflow: ellipsis;`
 
 - CJK (中国語、台湾語、日本語、韓国語)について：後述
