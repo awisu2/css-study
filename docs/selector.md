@@ -7,6 +7,8 @@
 
 ## Pseudo classes: 擬似クラス
 
+[擬似クラス \- CSS: カスケーディングスタイルシート \| MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-classes)
+
 - `:nth-child(n)`: match nth item in children(1~)
   - `*:nth-child(5)`: 5th
   - `*:nth-child(3n)`: matches a multiple of 3
