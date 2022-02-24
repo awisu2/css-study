@@ -9,7 +9,8 @@
 
 [擬似クラス \- CSS: カスケーディングスタイルシート \| MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-classes)
 
-- `:nth-child(n)`: match nth item in children(1~)
+- `{element?}:nth-child(An+B)`: match nth item in children(1~)
+  - `*:nth-child(1)`, `:first-child`: match first
   - `*:nth-child(5)`: 5th
   - `*:nth-child(3n)`: matches a multiple of 3
   - `*:nth-child(odd)`: 奇数
