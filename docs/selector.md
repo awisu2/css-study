@@ -4,6 +4,9 @@
 
 - `+`: 同じ親を持つタグ群で、隣接しているタグを選択(`a + p`とした場合pが選択される)
   - `{parent} > * + *`: 特定の子群の先頭以外
+
+## Pseudo classes: 擬似クラス
+
 - `:nth-child(n)`: match nth item in children(1~)
   - `*:nth-child(5)`: 5th
   - `*:nth-child(3n)`: matches a multiple of 3
