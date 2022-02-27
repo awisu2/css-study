@@ -6,3 +6,4 @@ NOTE
 
 - about what?: Visibility control the display without changeng the eistence of content.
 - `display: none`: remove content size (need re calcurate)
+  - but content is exists and  will continue to be processed
