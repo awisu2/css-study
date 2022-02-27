@@ -1,10 +1,11 @@
 # css-study
 
-- [selector](./docs/selector.md): selectorについて
-- [text](./docs/text.md): text系styleについて
-- [media](./docs/media.md): コンテンツ内の表示方法やimage, video関係
-- [flex](./docs/flex.md): flexについて
-- [grid](./docs/grid.md): gridについて
+- [selector](./docs/selector.md): selector について
+- [text](./docs/text.md): text 系 style について
+- [media](./docs/media.md): コンテンツ内の表示方法や image, video 関係
+- [flex](./docs/flex.md): flex について
+- [grid](./docs/grid.md): grid について
+- [visibility](./docs/visibility.md)
 
 ## custom
 
